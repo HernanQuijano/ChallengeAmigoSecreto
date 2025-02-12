@@ -11,7 +11,6 @@ function agregarAmigo() {
         alert('El amigo ya fue agregado');
         return;
     }else{
-        nombre = nombre.capitalize();
         listaAmigos.push(nombre);
         document.getElementById('amigo').value = '';
         listarAmigos();
